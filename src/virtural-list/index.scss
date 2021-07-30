@@ -1,0 +1,27 @@
+.roi-list {
+    .container-outer {
+        overflow-y: auto;
+        border: 1px solid black;
+        position: relative;
+        .list-scroll-place {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+    .container-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        .list-item {
+            border-bottom: 1px solid #ccc;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

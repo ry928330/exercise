@@ -1,0 +1,13 @@
+ul {
+    li {
+        list-style: none;
+        background-color: lightblue;
+        box-sizing: border-box;
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
+        text-align: center;
+        &.active {
+            background-color: blue;
+        }
+    }
+}

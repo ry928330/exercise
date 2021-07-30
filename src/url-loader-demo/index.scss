@@ -1,0 +1,13 @@
+.loader-demo {
+    background-color: #f00;
+    img {
+        width: 100px;
+        height: 200px;
+    }
+    .img-bg {
+        width: 100px;
+        height: 100px;
+        background-image: url('../../resources/imgs/test.jpeg');
+        background-size: cover;
+    }
+}
